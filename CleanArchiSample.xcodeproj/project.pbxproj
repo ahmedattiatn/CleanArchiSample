@@ -60,6 +60,18 @@
 		DC34DF3C2ED898DF00AAC736 /* CleanArchiSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DF3B2ED898DF00AAC736 /* CleanArchiSampleUITestsLaunchTests.swift */; };
 		DC34DF3D2ED8999700AAC736 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEC52ED894C600AAC736 /* HomeViewModelTests.swift */; };
 		DC34DF3E2ED89AAC00AAC736 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEC32ED894C600AAC736 /* HomeViewModel.swift */; };
+		DC34DF402ED8A13100AAC736 /* LeagueResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DE9E2ED894C600AAC736 /* LeagueResponse.swift */; };
+		DC34DF412ED8A14600AAC736 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DE9D2ED894C600AAC736 /* League.swift */; };
+		DC34DF422ED8A14F00AAC736 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA02ED894C600AAC736 /* Team.swift */; };
+		DC34DF432ED8A15500AAC736 /* TeamResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA12ED894C600AAC736 /* TeamResponse.swift */; };
+		DC34DF442ED8A17200AAC736 /* HomeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA52ED894C600AAC736 /* HomeRepositoryProtocol.swift */; };
+		DC34DF452ED8A18100AAC736 /* GetTeamsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEB12ED894C600AAC736 /* GetTeamsUseCase.swift */; };
+		DC34DF462ED8A18C00AAC736 /* HomeViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEB42ED894C600AAC736 /* HomeViewState.swift */; };
+		DC34DF472ED8A1C500AAC736 /* GetTeamsUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA42ED894C600AAC736 /* GetTeamsUseCaseProtocol.swift */; };
+		DC34DF482ED8A21000AAC736 /* MockedLeague.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA82ED894C600AAC736 /* MockedLeague.swift */; };
+		DC34DF492ED8A21500AAC736 /* MockedTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA92ED894C600AAC736 /* MockedTeam.swift */; };
+		DC34DF4A2ED8A29C00AAC736 /* LeagueServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEA62ED894C600AAC736 /* LeagueServiceProtocol.swift */; };
+		DC34DF4B2ED8A2B000AAC736 /* GetLeaguesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34DEB02ED894C600AAC736 /* GetLeaguesUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -711,10 +723,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC34DF422ED8A14F00AAC736 /* Team.swift in Sources */,
+				DC34DF432ED8A15500AAC736 /* TeamResponse.swift in Sources */,
 				DC34DF3D2ED8999700AAC736 /* HomeViewModelTests.swift in Sources */,
+				DC34DF452ED8A18100AAC736 /* GetTeamsUseCase.swift in Sources */,
 				DC34DF3E2ED89AAC00AAC736 /* HomeViewModel.swift in Sources */,
+				DC34DF492ED8A21500AAC736 /* MockedTeam.swift in Sources */,
+				DC34DF412ED8A14600AAC736 /* League.swift in Sources */,
+				DC34DF4B2ED8A2B000AAC736 /* GetLeaguesUseCase.swift in Sources */,
+				DC34DF482ED8A21000AAC736 /* MockedLeague.swift in Sources */,
 				DC34DF312ED8971F00AAC736 /* RepositoryMock.swift in Sources */,
 				DC34DF302ED8971900AAC736 /* GetTeamsUseCaseTests.swift in Sources */,
+				DC34DF402ED8A13100AAC736 /* LeagueResponse.swift in Sources */,
+				DC34DF4A2ED8A29C00AAC736 /* LeagueServiceProtocol.swift in Sources */,
+				DC34DF472ED8A1C500AAC736 /* GetTeamsUseCaseProtocol.swift in Sources */,
+				DC34DF442ED8A17200AAC736 /* HomeRepositoryProtocol.swift in Sources */,
+				DC34DF462ED8A18C00AAC736 /* HomeViewState.swift in Sources */,
 				DC34DF382ED898A000AAC736 /* CleanArchiSampleTests.swift in Sources */,
 				DC34DF2F2ED8971300AAC736 /* GetLeaguesUseCaseTests.swift in Sources */,
 			);
